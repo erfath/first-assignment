@@ -7,7 +7,7 @@ h1{
 .another-color{
     color: darkorange;
 }
-.flexible-container{
+.flex-container{
     display: flex;
     margin-left: 40px;
 }
@@ -15,20 +15,90 @@ h1{
     width: 50%;
 }
 .half-width img{
-    width: 60%;
+    width: 70%;
     margin-left: 20px;
 }
-.explore-button{
+.click-button{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
     color: white;
     background-image: linear-gradient(tomato, rgb(184, 18, 18));
-    padding: 10px 40px;
+    padding: 10px 30px;
     border-radius: 10px;
 
 }
 .scroll-down{
     margin-top: 50px;
+    margin-bottom: 80px;
 }
 .first-pera{
     margin-bottom: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    
 }
+.mission-container{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+}
+#mission{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.year{
+    color: darkorange;
+}
+.grid-container img{
+    height: 150px;
+    width: 160px;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-left: 40px;
+}
+
+.grid-mission{
+    background-color: rgba(206, 248, 248, 0.979);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+   
+    
+}
+.grid-vission{
+    background-color: rgb(231, 208, 245);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    
+}
+    
+.grid-goals{
+    background-color: bisque;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: justify;
+    
+}
+.last-part{
+    width: 50%;
+}
+.last-part img{
+    width: 70%;
+}  
+strong{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700px;
+}
+
+h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
